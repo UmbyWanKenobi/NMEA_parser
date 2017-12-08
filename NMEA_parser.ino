@@ -131,9 +131,6 @@ void extract_string_data () {
           TIME.year = tmp.substring(4, 6).toInt();
           break;
           // case 10:
-          tmp = (NMEA.substring(index, pos));
-          Serial.print("tmp: "); Serial.println (tmp);
-          Serial.print("NMEA: "); Serial.println (NMEA);
           break;
       }
 
